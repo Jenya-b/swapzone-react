@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   max-width: ${({ theme }) => theme.sizes.container.width}px;
@@ -10,3 +10,5 @@ export const Container = styled.div`
 export const Main = styled.main`
   grid-area: main;
 `;
+
+export const inputStylesNull = css``;

@@ -9,5 +9,6 @@ export interface ITheme {
     footer: { height: number };
     container: { width: number };
     logoHeader: { height: number; width: number };
+    inputSearch: { height: number; width: number };
   };
 }

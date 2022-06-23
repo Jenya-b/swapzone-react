@@ -11,5 +11,6 @@ export const baseTheme: ITheme = {
     footer: { height: 100 },
     container: { width: 1630 },
     logoHeader: { height: 90, width: 90 },
+    inputSearch: { height: 108, width: 100 },
   },
 };
